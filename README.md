@@ -22,7 +22,7 @@ pod "MSThriftSerializer"
 
 ## Author
 
-Maximilian Schenk, maximilian.schenk@jambit.com
+Maximilian Schenk, decks@ok.de
 
 ## License
 

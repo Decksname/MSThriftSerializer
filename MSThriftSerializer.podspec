@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/Decksname/MSThriftSerializer"
   # s.screenshots     =
   s.license          = 'MIT'
-  s.author           = { "Maximilian Schenk" => "max.schenk@gmx.net" }
+  s.author           = { "Maximilian Schenk" => "Decks@ok.de" }
   s.source           = { :git => "https://github.com/Decksname/MSThriftSerializer.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/schenkmax>'
 
