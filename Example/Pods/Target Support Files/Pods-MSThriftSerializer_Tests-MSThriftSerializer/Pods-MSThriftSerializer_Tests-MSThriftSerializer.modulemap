@@ -1,0 +1,6 @@
+framework module MSThriftSerializer {
+  umbrella header "Pods-MSThriftSerializer_Tests-MSThriftSerializer-umbrella.h"
+
+  export *
+  module * { export * }
+}
