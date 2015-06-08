@@ -20,6 +20,13 @@ it, simply add the following line to your Podfile:
 
 To use the MSSerializer just import `#import <MSThriftSerializer/MSThriftSerializer.h>`
 
+
+```ruby
+pod "MSThriftSerializer"
+```
+
+
+
 To serialize your Thrift object to an NSData call the static method `+(NSData*) serialize:(id)object;` To restore your Thrift object from NSData you call `+(id) deserialize:(NSData*)data toClass:(Class)class;` 
 
 
@@ -49,11 +56,6 @@ NSLog(@"And this is inSide: %@",restoredThriftObject.description);
 
 ```
 
-
-
-```ruby
-pod "MSThriftSerializer"
-```
 
 ## Author
 
