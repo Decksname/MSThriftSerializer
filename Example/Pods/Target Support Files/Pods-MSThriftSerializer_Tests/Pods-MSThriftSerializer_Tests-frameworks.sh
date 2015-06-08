@@ -51,9 +51,11 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'Expecta.framework'
   install_framework 'MSThriftSerializer.framework'
   install_framework 'Specta.framework'
+  install_framework 'thrift.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'Expecta.framework'
   install_framework 'MSThriftSerializer.framework'
   install_framework 'Specta.framework'
+  install_framework 'thrift.framework'
 fi

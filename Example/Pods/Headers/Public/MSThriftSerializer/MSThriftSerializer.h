@@ -1,0 +1,1 @@
+../../../../../Pod/Classes/MSThriftSerializer.h

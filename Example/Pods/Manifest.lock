@@ -1,7 +1,9 @@
 PODS:
   - Expecta (1.0.0)
-  - MSThriftSerializer (0.1.0)
+  - MSThriftSerializer (0.1.0):
+    - thrift (~> 0.9)
   - Specta (1.0.1)
+  - thrift (0.9.2)
 
 DEPENDENCIES:
   - Expecta
@@ -14,7 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Expecta: 32604574add2c46a36f8d2f716b6c5736eb75024
-  MSThriftSerializer: 8ea80d174351f12def56edd81cc01a54f96a3045
+  MSThriftSerializer: 274f2116eae146d41a0bd50f3b5fe86bde7c297a
   Specta: 097be314a75de103703a3bf9a529dc1a398509d7
+  thrift: 54db2dc6b2918a6d38a866232e329e925471ddd6
 
 COCOAPODS: 0.37.2

@@ -6,7 +6,7 @@
   "homepage": "https://github.com/Decksname/MSThriftSerializer",
   "license": "MIT",
   "authors": {
-    "Maximilian Schenk": "max.schenk@gmx.net"
+    "Maximilian Schenk": "Decks@ok.de"
   },
   "source": {
     "git": "https://github.com/Decksname/MSThriftSerializer.git",
@@ -20,6 +20,11 @@
   "resource_bundles": {
     "MSThriftSerializer": [
       "Pod/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "thrift": [
+      "~> 0.9"
     ]
   }
 }

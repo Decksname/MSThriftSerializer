@@ -12,3 +12,9 @@
 #define COCOAPODS_VERSION_MINOR_MSThriftSerializer 1
 #define COCOAPODS_VERSION_PATCH_MSThriftSerializer 0
 
+// thrift
+#define COCOAPODS_POD_AVAILABLE_thrift
+#define COCOAPODS_VERSION_MAJOR_thrift 0
+#define COCOAPODS_VERSION_MINOR_thrift 9
+#define COCOAPODS_VERSION_PATCH_thrift 2
+
