@@ -12,10 +12,6 @@ Pod::Spec.new do |s|
   s.version          = "0.1.0"
   s.summary          = "The pod helps you to serialize your Thrift Objects. That means from <YourThriftObject> to NSData and backwards."
   s.description      = <<-DESC
-                       An optional longer description of MSThriftSerializer
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
                        DESC
   s.homepage         = "https://github.com/Decksname/MSThriftSerializer"
   # s.screenshots     =
