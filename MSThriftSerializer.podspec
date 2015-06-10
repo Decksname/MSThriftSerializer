@@ -10,14 +10,15 @@
 Pod::Spec.new do |s|
   s.name             = "MSThriftSerializer"
   s.version          = "0.1.1"
-  s.summary          = "The pod helps you to serialize your Thrift Objects. That means from <YourThriftObject> to NSData and backwards."
+  s.summary          = "Serializer for Thrift Objects"
   s.description      = <<-DESC
+                      The pod helps you to serialize your Thrift Objects. That means from <YourThriftObject> to NSData and backwards.
                        DESC
   s.homepage         = "https://github.com/Decksname/MSThriftSerializer"
   s.license          = 'MIT'
   s.author           = { "Maximilian Schenk" => "Decks@ok.de" }
-  s.source           = { :git => "https://github.com/Decksname/MSThriftSerializer.git", :tag => 'v0.1.1' }
-  s.social_media_url = 'https://twitter.com/schenkmax>'
+  s.source           = { :git => "https://github.com/Decksname/MSThriftSerializer.git", :tag => '0.1.1' }
+  s.social_media_url = 'https://twitter.com/schenkmax'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
