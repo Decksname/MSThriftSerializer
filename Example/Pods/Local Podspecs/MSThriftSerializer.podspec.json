@@ -1,0 +1,26 @@
+{
+  "name": "MSThriftSerializer",
+  "version": "0.1.1",
+  "summary": "The pod helps you to serialize your Thrift Objects. That means from <YourThriftObject> to NSData and backwards.",
+  "description": "",
+  "homepage": "https://github.com/Decksname/MSThriftSerializer",
+  "license": "MIT",
+  "authors": {
+    "Maximilian Schenk": "Decks@ok.de"
+  },
+  "source": {
+    "git": "https://github.com/Decksname/MSThriftSerializer.git",
+    "tag": "v0.1.1"
+  },
+  "social_media_url": "https://twitter.com/schenkmax>",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "dependencies": {
+    "thrift": [
+      "~> 0.9"
+    ]
+  }
+}

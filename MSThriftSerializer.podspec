@@ -28,5 +28,5 @@ Pod::Spec.new do |s|
 #    'MSThriftSerializer' => ['Pod/Assets/*.png']
 #  }
 
-  s.dependency 'thrift', '~> 0.9'
+  s.dependency 'thrift', '~> 0.9.2'
 end

@@ -1,0 +1,6 @@
+framework module thrift {
+  umbrella header "Pods-MSThriftSerializer_Example-thrift-umbrella.h"
+
+  export *
+  module * { export * }
+}

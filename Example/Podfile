@@ -2,12 +2,10 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 target 'MSThriftSerializer_Example', :exclusive => true do
-  #pod "MSThriftSerializer", :path => "../"
   pod 'MSThriftSerializer', :git => 'https://github.com/Decksname/MSThriftSerializer.git'
 end
 
 target 'MSThriftSerializer_Tests', :exclusive => true do
-  #pod "MSThriftSerializer", :path => "../"
   pod 'MSThriftSerializer', :git => 'https://github.com/Decksname/MSThriftSerializer.git'
 
   pod 'Specta'

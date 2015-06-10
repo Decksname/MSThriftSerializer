@@ -1,22 +1,27 @@
 PODS:
   - Expecta (1.0.0)
-  - MSThriftSerializer (0.1.0):
+  - MSThriftSerializer (0.1.1):
     - thrift (~> 0.9)
   - Specta (1.0.1)
   - thrift (0.9.2)
 
 DEPENDENCIES:
   - Expecta
-  - MSThriftSerializer (from `../`)
+  - MSThriftSerializer (from `https://github.com/Decksname/MSThriftSerializer.git`)
   - Specta
 
 EXTERNAL SOURCES:
   MSThriftSerializer:
-    :path: "../"
+    :git: https://github.com/Decksname/MSThriftSerializer.git
+
+CHECKOUT OPTIONS:
+  MSThriftSerializer:
+    :commit: bf705b7ead1f1d0923447dff9acce060747f6c63
+    :git: https://github.com/Decksname/MSThriftSerializer.git
 
 SPEC CHECKSUMS:
   Expecta: 32604574add2c46a36f8d2f716b6c5736eb75024
-  MSThriftSerializer: 1f34abdbad665305771ff8be6eba5d90bab93280
+  MSThriftSerializer: 9c0d94a2257dc8b3861735c519720eddc0b06637
   Specta: 097be314a75de103703a3bf9a529dc1a398509d7
   thrift: 54db2dc6b2918a6d38a866232e329e925471ddd6
 
