@@ -12,11 +12,11 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   MSThriftSerializer:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
   Expecta: 32604574add2c46a36f8d2f716b6c5736eb75024
-  MSThriftSerializer: 274f2116eae146d41a0bd50f3b5fe86bde7c297a
+  MSThriftSerializer: 1f34abdbad665305771ff8be6eba5d90bab93280
   Specta: 097be314a75de103703a3bf9a529dc1a398509d7
   thrift: 54db2dc6b2918a6d38a866232e329e925471ddd6
 

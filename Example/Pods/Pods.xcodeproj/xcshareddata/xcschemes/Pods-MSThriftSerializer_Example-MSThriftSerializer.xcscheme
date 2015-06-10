@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F48ACEBFBCBFEE46447DE7B8"
+               BlueprintIdentifier = "24F5782CD3BBE00F416E8439"
                BuildableName = "MSThriftSerializer.framework"
                BlueprintName = "Pods-MSThriftSerializer_Example-MSThriftSerializer"
                ReferencedContainer = "container:Pods.xcodeproj">

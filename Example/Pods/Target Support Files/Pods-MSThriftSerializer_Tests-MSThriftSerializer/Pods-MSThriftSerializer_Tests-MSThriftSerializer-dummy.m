@@ -1,5 +1,0 @@
-#import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_MSThriftSerializer_Tests_MSThriftSerializer : NSObject
-@end
-@implementation PodsDummy_Pods_MSThriftSerializer_Tests_MSThriftSerializer
-@end

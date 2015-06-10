@@ -9,23 +9,23 @@
 
 Pod::Spec.new do |s|
   s.name             = "MSThriftSerializer"
-  s.version          = "0.0.1"
+  s.version          = "0.1.1"
   s.summary          = "The pod helps you to serialize your Thrift Objects. That means from <YourThriftObject> to NSData and backwards."
   s.description      = <<-DESC
                        DESC
   s.homepage         = "https://github.com/Decksname/MSThriftSerializer"
   s.license          = 'MIT'
   s.author           = { "Maximilian Schenk" => "Decks@ok.de" }
-  s.source           = { :git => "https://github.com/Decksname/MSThriftSerializer.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/Decksname/MSThriftSerializer.git", :tag => 'v0.1.1' }
   s.social_media_url = 'https://twitter.com/schenkmax>'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'MSThriftSerializer' => ['Pod/Assets/*.png']
-  }
+#s.resource_bundles = {
+#    'MSThriftSerializer' => ['Pod/Assets/*.png']
+#  }
 
   s.dependency 'thrift', '~> 0.9'
 end
