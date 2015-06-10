@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		13E026998FA11FF1AFA88A08 /* Pods_MSThriftSerializer_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0DAFE7E02017347B6A15F2 /* Pods_MSThriftSerializer_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		1D0711DA1B26077F001E75ED /* MSThriftSerializer.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 1D0711D91B26077F001E75ED /* MSThriftSerializer.podspec */; };
 		1DB1C3B91B25F9CD0066AC20 /* SimpleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB1C3B31B25F9CD0066AC20 /* SimpleObject.m */; };
 		1DB1C3BA1B25F9CD0066AC20 /* SimpleObjectList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB1C3B51B25F9CD0066AC20 /* SimpleObjectList.m */; };
 		1DB1C3BB1B25F9CD0066AC20 /* generate.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1DB1C3B61B25F9CD0066AC20 /* generate.sh */; };
@@ -42,7 +41,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D0711D91B26077F001E75ED /* MSThriftSerializer.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MSThriftSerializer.podspec; sourceTree = "<group>"; };
 		1DB1C3B21B25F9CD0066AC20 /* SimpleObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleObject.h; sourceTree = "<group>"; };
 		1DB1C3B31B25F9CD0066AC20 /* SimpleObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleObject.m; sourceTree = "<group>"; };
 		1DB1C3B41B25F9CD0066AC20 /* SimpleObjectList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleObjectList.h; sourceTree = "<group>"; };
@@ -106,14 +104,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1D0711D81B26077F001E75ED /* 0.0.1 */ = {
-			isa = PBXGroup;
-			children = (
-				1D0711D91B26077F001E75ED /* MSThriftSerializer.podspec */,
-			);
-			path = 0.0.1;
-			sourceTree = "<group>";
-		};
 		1DB1C3B01B25F9CD0066AC20 /* thrift-idl-sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -219,7 +209,6 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				1D0711D81B26077F001E75ED /* 0.0.1 */,
 				2FB9C4A338939D1EFBD58A3F /* README.md */,
 				EBCC0B586606B1C30E5FCDBA /* LICENSE */,
 			);
@@ -323,7 +312,6 @@
 				1DB1C3BC1B25F9CD0066AC20 /* SimpleObject.thrift in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				1D0711DA1B26077F001E75ED /* MSThriftSerializer.podspec in Resources */,
 				1DB1C3BD1B25F9CD0066AC20 /* SimpleObjectList.thrift in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 				1DB1C3BB1B25F9CD0066AC20 /* generate.sh in Resources */,
